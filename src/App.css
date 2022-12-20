@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+  background: #000;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh;
+  align-content: center;
+  position: static;
+  height: 15vh;
+  width: 100%;
+  margin-bottom: 2%;
+}
+nav > .title{
+  font-family: 'Secular One', sans-serif;
+}
+svg{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.banner{
+  position: sticky;
+  left: 35%;
+  width: 23%;
+}
+.banner > a > h4{
+  cursor: pointer;
+  width: auto;
+  position: static;
+  color: #6e6e6e;
+}
+.banner > a > h4:hover{
+  color: #ffffff;
+  font-size: 15px !important;
+}
+.container > h1{
+  color: #FFF;
+}
+.deg{
+  width: 18%;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.logo{
+  width: 400px;
+  height: 400px;
+}
+.section1 > #info{
+  width: 65%;
+}
+.koder{
+  background-position: center;
+  background-size: cover;
+  min-height: 500px; 
+  background-image: url(./img/harold-koderx.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1; 
+}
+.foot{
+  background-image: linear-gradient(150deg, #000000, #494949);
+  width: 100%;
+  height: 10vh;
+  padding: 15px 0;
+  margin-top: 8%;
+}
+.foot > h1{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.6em;
+  color: #ffffff;
+}
+.skills > .title > h2{
+  border-color: #ffffff65;
+}
+.skills > .d-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 40fr);
+}
+.stars{
+  margin: 0 !important;
+}
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .container{
+    background-color: rgba(71, 71, 71, 0.582);
+    margin-left: 18%;
+    width: 60%;
+  }
+  
+  .info > p{
+    color: #FFF;
+  }
+}
