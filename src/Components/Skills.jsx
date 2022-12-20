@@ -5,6 +5,7 @@ import { AiOutlineDown } from 'react-icons/ai'
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { Button } from "@mui/material";
+import {red} from '@mui/material/colors'
 
 function Skills(){
     const [type, setType] = useState("fullstack")
@@ -27,7 +28,10 @@ function Skills(){
                     aria-haspopup="true"
                     aria-expanded={open ? 'true' : undefined}
                     onClick={handleClick}
-                    className="flex items-center"
+                    className="flex items-center p-4"
+                    color={"primary"}
+                    variant="contained"
+                    size="medium"
                 >
                     Select <AiOutlineDown className="w-[15px]"/>
                 </Button>
