@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Skills from './Components/Skills'
+import Cv from './Components/Cv'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/skills' element={<Skills/>} />
+          <Route path='/cv' element={<Cv/>} />
         </Routes>
       </Router>
       
