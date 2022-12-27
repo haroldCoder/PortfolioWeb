@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 function Navbar(){
     return(
         <nav className='w-100'>
-            <h2 className='title text-2xl text-transparent text-koderlim'>KODERX</h2>
+            <h2 className='title text-2xl text-koderlim'>KODERX</h2>
             <div className='banner flex gap-6 px-14'>
                 <Link to='/'><h4 className='text-white'>Home</h4></Link>
                 <Link to='/skills'><h4 className='text-white'>Skills</h4></Link>
