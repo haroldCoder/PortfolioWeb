@@ -10,6 +10,7 @@ function Navbar(){
                 <Link to='/skills'><h4 className='text-white'>Skills</h4></Link>
                 <a target='_blank' href='https://www.linkedin.com/in/harold-casta%C3%B1o-816180216/'><h4 className='text-white'>Linkedin</h4></a>
                 <Link to='/cv'><h4 className='text-white'>CV</h4></Link>
+                <Link to='/proyects'><h4 className='text-white'>Proyects</h4></Link>
             </div>
             <div className='social flex cursor-pointer'>
                 <a href="https://www.facebook.com/profile.php?id=100073088183904" target='_blank'><FaFacebook color='white' /></a>

@@ -6,6 +6,7 @@ import Home from './Components/Home'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Skills from './Components/Skills'
 import Cv from './Components/Cv'
+import Proyects from './Components/Proyects'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/skills' element={<Skills/>} />
           <Route path='/cv' element={<Cv/>} />
+          <Route path='/proyects' element={<Proyects/>} />
         </Routes>
       </Router>
       
