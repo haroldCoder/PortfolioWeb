@@ -23,7 +23,7 @@ export default function Home(){
                 </section>
                 <section >
                     <img src={coder} className="logo rounded-full" />
-                    <div className='absolute z-[0] top-16 bottom-40 w-[80%] h-[80%]' style={{background: "linear-gradient(90deg, #A2FF00 0%, #333 10%)", filter: "blur(200px)"}}></div>
+                    <div className='fixed z-[0] top-16 bottom-40 w-[80%] h-[80%]' style={{background: "linear-gradient(90deg, #A2FF00 0%, #333 10%)", filter: "blur(200px)"}}></div>
                 </section>
             </div>
             <div className='section2 p-5 px-[10%] flex w-100 justify-between'>
