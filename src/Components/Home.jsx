@@ -10,7 +10,7 @@ export default function Home(){
                     <div className='deg mb-5 bg-gradient-to-r from-koderlim via-lime-900 to-neutral-900' style={{width: "20%"}}>
                         <h1 className='text-xl text-white'>Koderx Developers</h1>
                     </div>
-                    <h1  className='text-7xl text-white mb-10' style={{width: "100%",fontFamily: 'Fira Sans, sans-serif'}}>we are full stack web developers.</h1>
+                    <h1 className='text-7xl text-white mb-10' style={{width: "100%",fontFamily: 'Fira Sans, sans-serif'}}>we are full stack web developers.</h1>
                     <h3 className='text-neutral-300 max-w-xl'>
                         koderx developers is a fullstack developer company,
                         although we also specialize in data science and desktop applications,
@@ -23,7 +23,7 @@ export default function Home(){
                 </section>
                 <section >
                     <img src={coder} className="logo rounded-full" />
-                    <div className='fixed z-[0] top-16 bottom-40 w-[80%] h-[80%]' style={{background: "linear-gradient(90deg, #A2FF00 0%, #333 10%)", filter: "blur(200px)"}}></div>
+                    <div className='absolute z-[5] left-[20%] bottom-[200%] w-[90%] h-[60%]' style={{background: "linear-gradient(100deg, rgb(217 217 217) 10%, rgb(42 104 0) 3 0%);", filter: "blur(300px)"}}></div>
                 </section>
             </div>
             <div className='section2 p-5 px-[10%] flex w-100 justify-between'>
