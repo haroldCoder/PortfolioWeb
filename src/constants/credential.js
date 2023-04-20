@@ -9,7 +9,6 @@ import cpp from '../img/cpp.png'
 import csharp from '../img/csharp.png'
 import java from '../img/java.png'
 import python from '../img/python.png'
-import machine from '../img/machine.png'
 import sql from '../img/sql.png'
 import c from '../img/c.png'
 
@@ -77,14 +76,14 @@ export const skillsSoftware = [
     {
         "name": "C++",
         "cover": cpp,
-        "type": "programmin",
+        "type": "programming",
         "progress": 60
     },
     {
         "name": "C#",
         "cover": csharp,
         "type": "fullstack",
-        "progress": 40
+        "progress": 60
     },
     {
         "name": "JAVA",
@@ -102,7 +101,7 @@ export const skillsSoftware = [
         "name": "PYTHON3",
         "cover": python,
         "type": "programming",
-        "progress": 80
+        "progress": 70
     },
     {
         "name": "SQL",
@@ -110,4 +109,4 @@ export const skillsSoftware = [
         "type": "fullstack",
         "progress": 95
     }
-]
+]; 
