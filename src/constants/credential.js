@@ -4,13 +4,13 @@ import js from '../img/js.png'
 import jquery from '../img/jquery.png';
 import php from '../img/php.png'
 import react from '../img/reactjs.png'
-import angular from '../img/angular.png'
+import next from '../img/nextjs.png'
 import cpp from '../img/cpp.png'
 import csharp from '../img/csharp.png'
 import java from '../img/java.png'
 import python from '../img/python.png'
 import sql from '../img/sql.png'
-import c from '../img/c.png'
+import c from '../img/c.png';
 
 export const skills = [
     {
@@ -68,8 +68,8 @@ export const skillsSoftware = [
         "progress": 80
     },
     {
-        "name": "ANGULARJS",
-        "cover": angular,
+        "name": "NEXTJS",
+        "cover": next,
         "type": "fullstack",
         "progress": 60
     },
